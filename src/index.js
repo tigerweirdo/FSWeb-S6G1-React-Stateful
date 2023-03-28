@@ -10,12 +10,13 @@ import Programcilar from './components/Programcilar';
 
 render(
   <>
-    <Sayac />
+    {/* <Sayac /> */}
     <RuhHalleri />
     <Dondurucu />
     <Input />
     <Kareler />
     <Programcilar />
+  
   </>
   ,
   document.querySelector('#root')
