@@ -46,10 +46,11 @@ ADIM 6:
 */
 
 import React from 'react'; /* ADIM 0 buraya*/
+import { useState } from 'react';
 
 export default function Sayac() {
   /* ADIM 1 buraya*/
-	
+	const [sayici,setSayici]=useState[0]
 	
   const artirici = () => {
     /* ADIM 4 buraya */
@@ -63,7 +64,8 @@ export default function Sayac() {
   const stil = {
     fontSize: '1.5em',
     marginBottom: '0.3em',
-    color: 'royalblue', /* ADIM 2 */
+    color: sayici %2==0 ? "royalblue": "crimson" /* ADIM 2 */
+
   };
 
   return (
